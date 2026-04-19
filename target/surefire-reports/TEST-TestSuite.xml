@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="27.906" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="28.151" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\shami\AppData\Local\Temp\surefire3302986985386100188\surefirebooter-20260413195542920_3.jar C:\Users\shami\AppData\Local\Temp\surefire3302986985386100188 2026-04-13T19-55-42_675-jvmRun1 surefire-20260413195542920_1tmp surefire_0-20260413195542920_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\shami\AppData\Local\Temp\surefire10236258224721579372\surefirebooter-20260414214054282_3.jar C:\Users\shami\AppData\Local\Temp\surefire10236258224721579372 2026-04-14T21-40-54_079-jvmRun1 surefire-20260414214054282_1tmp surefire_0-20260414214054282_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\work space java\Opencartv121\target\test-classes;C:\work space java\Opencartv121\target\classes;C:\Users\shami\.m2\repository\org\seleniumhq\selenium\selenium-java\4.41.0\selenium-java-4.41.0.jar;C:\Users\shami\.m2\repository\org\seleniumhq\selenium\selenium-api\4.41.0\selenium-api-4.41.0.jar;C:\Users\shami\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\shami\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.41.0\selenium-chrome-driver-4.41.0.jar;C:\Users\shami\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\shami\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.41.0\selenium-chromium-driver-4.41.0.jar;C:\Users\shami\.m2\repository\org\seleniumhq\selenium\selenium-json\4.41.0\selenium-json-4.41.0.jar;C:\Users\shami\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.41.0\selenium-manager-4.41.0.jar;C:\Users\shami\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.41.0\selenium-devtools-v143-4.41.0.jar;C:\Users\shami\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.41.0\selenium-devtools-v144-4.41.0.jar;C:\Users\shami\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.41.0\selenium-devtools-v145-4.41.0.jar;C:\Users\shami\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.41.0\selenium-edge-driver-4.41.0.jar;C:\Users\shami\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.41.0\selenium-firefox-driver-4.41.0.jar;C:\Users\shami\.m2\repository\org\seleniumhq\selenium\selenium-http\4.41.0\selenium-http-4.41.0.jar;C:\Users\shami\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.41.0\selenium-ie-driver-4.41.0.jar;C:\Users\shami\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.41.0\selenium-remote-driver-4.41.0.jar;C:\Users\shami\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\shami\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\shami\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\shami\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\shami\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\shami\.m2\repository\io\opentelemetry\opentelemetry-api\1.59.0\opentelemetry-api-1.59.0.jar;C:\Users\shami\.m2\repository\io\opentelemetry\opentelemetry-context\1.59.0\opentelemetry-context-1.59.0.jar;C:\Users\shami\.m2\repository\io\opentelemetry\opentelemetry-common\1.59.0\opentelemetry-common-1.59.0.jar;C:\Users\shami\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.59.0\opentelemetry-exporter-logging-1.59.0.jar;C:\Users\shami\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.59.0\opentelemetry-sdk-common-1.59.0.jar;C:\Users\shami\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.59.0\opentelemetry-sdk-extension-autoconfigure-spi-1.59.0.jar;C:\Users\shami\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.59.0\opentelemetry-sdk-extension-autoconfigure-1.59.0.jar;C:\Users\shami\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.59.0\opentelemetry-sdk-trace-1.59.0.jar;C:\Users\shami\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.59.0\opentelemetry-sdk-1.59.0.jar;C:\Users\shami\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.59.0\opentelemetry-sdk-metrics-1.59.0.jar;C:\Users\shami\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.59.0\opentelemetry-sdk-logs-1.59.0.jar;C:\Users\shami\.m2\repository\net\bytebuddy\byte-buddy\1.18.5\byte-buddy-1.18.5.jar;C:\Users\shami\.m2\repository\org\seleniumhq\selenium\selenium-os\4.41.0\selenium-os-4.41.0.jar;C:\Users\shami\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.41.0\selenium-safari-driver-4.41.0.jar;C:\Users\shami\.m2\repository\org\seleniumhq\selenium\selenium-support\4.41.0\selenium-support-4.41.0.jar;C:\Users\shami\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\shami\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\shami\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\shami\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\shami\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\shami\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\shami\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\shami\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\shami\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\shami\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\shami\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\shami\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\shami\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\shami\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\shami\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\shami\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\shami\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\shami\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\shami\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\shami\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\shami\.m2\repository\org\apache\commons\commons-lang3\3.20.0\commons-lang3-3.20.0.jar;C:\Users\shami\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\shami\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;C:\Users\shami\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;C:\Users\shami\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.22.1\log4j-slf4j2-impl-2.22.1.jar;C:\Users\shami\.m2\repository\org\apache\commons\commons-email\1.6.0\commons-email-1.6.0.jar;C:\Users\shami\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;C:\Users\shami\.m2\repository\com\sun\activation\jakarta.activation\1.2.1\jakarta.activation-1.2.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -26,11 +26,12 @@
     <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="C:\work space java\Opencartv121"/>
+    <property name="style.color" value="always"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\shami\AppData\Local\Temp\surefire3302986985386100188\surefirebooter-20260413195542920_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\shami\AppData\Local\Temp\surefire10236258224721579372\surefirebooter-20260414214054282_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.2+7-58"/>
@@ -58,24 +59,40 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="verify_account_registration" classname="testCases.TC_001_AccountRegistrationPageTest" time="4.156">
-    <system-out><![CDATA[2026-04-13 19:56:00 INFO  TC_001_AccountRegistrationPageTest:14 - ******Starting TC_001_AccountRegistrationPage***********
-2026-04-13 19:56:00 INFO  TC_001_AccountRegistrationPageTest:18 - Clicking on MyAccount link.....
-2026-04-13 19:56:00 INFO  TC_001_AccountRegistrationPageTest:21 - Clicking on Register link.....
-2026-04-13 19:56:01 INFO  TC_001_AccountRegistrationPageTest:26 - Providing customer info.....
-2026-04-13 19:56:04 INFO  TC_001_AccountRegistrationPageTest:40 -  Validating expected message... 
-2026-04-13 19:56:04 INFO  TC_001_AccountRegistrationPageTest:63 - *****Finished TC_001_AccountRegistrationPage***** 
+  <testcase name="verify_account_registration" classname="testCases.TC_001_AccountRegistrationPageTest" time="5.111">
+    <system-out><![CDATA[2026-04-14 21:41:00 INFO  TC_001_AccountRegistrationPageTest:14 - ******Starting TC_001_AccountRegistrationPage***********
+2026-04-14 21:41:00 INFO  TC_001_AccountRegistrationPageTest:18 - Clicking on MyAccount link.....
+2026-04-14 21:41:00 INFO  TC_001_AccountRegistrationPageTest:21 - Clicking on Register link.....
+2026-04-14 21:41:01 INFO  TC_001_AccountRegistrationPageTest:26 - Providing customer info.....
+2026-04-14 21:41:05 INFO  TC_001_AccountRegistrationPageTest:40 -  Validating expected message... 
+2026-04-14 21:41:05 INFO  TC_001_AccountRegistrationPageTest:63 - *****Finished TC_001_AccountRegistrationPage***** 
 ]]></system-out>
-    <system-err><![CDATA[Apr 13, 2026 7:55:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
+    <system-err><![CDATA[Apr 14, 2026 9:40:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 147
 ]]></system-err>
   </testcase>
-  <testcase name="verifyAccoun" classname="testCases.TC_002_LoginTest" time="2.79">
-    <system-out><![CDATA[2026-04-13 19:56:08 INFO  TC_002_LoginTest:16 - ******Starting TC_002_LoginTest*****
-2026-04-13 19:56:10 INFO  TC_002_LoginTest:40 - *****Finishing TC_002_LoginTest*****
+  <testcase name="verifyAccoun" classname="testCases.TC_002_LoginTest" time="3.185">
+    <system-out><![CDATA[2026-04-14 21:41:08 INFO  TC_002_LoginTest:16 - ******Starting TC_002_LoginTest*****
+2026-04-14 21:41:11 INFO  TC_002_LoginTest:40 - *****Finishing TC_002_LoginTest*****
 ]]></system-out>
-    <system-err><![CDATA[Apr 13, 2026 7:56:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 146
+    <system-err><![CDATA[Apr 14, 2026 9:41:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 147
+]]></system-err>
+  </testcase>
+  <testcase name="verify_pruductSearch" classname="testCases.TC_004_SearchProductTest" time="1.258">
+    <system-out><![CDATA[2026-04-14 21:41:15 INFO  TC_004_SearchProductTest:14 -  Starting TC_004_SearchProductTest 
+2026-04-14 21:41:16 INFO  TC_004_SearchProductTest:34 -  Finished TC_004_SearchProductTest 
+]]></system-out>
+    <system-err><![CDATA[Apr 14, 2026 9:41:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 147
+]]></system-err>
+  </testcase>
+  <testcase name="verify_addToCart" classname="testCases.TC_005_AddToCartPageTest" time="2.605">
+    <system-out><![CDATA[2026-04-14 21:41:19 INFO  TC_005_AddToCartPageTest:15 -  Starting TC_005_AddToCartPageTest 
+2026-04-14 21:41:22 INFO  TC_005_AddToCartPageTest:41 -  Finished TC_004_SearchProductTest 
+]]></system-out>
+    <system-err><![CDATA[Apr 14, 2026 9:41:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 147, returning the closest version; found: 145; Please update to a Selenium version that supports CDP version 147
 ]]></system-err>
   </testcase>
 </testsuite>

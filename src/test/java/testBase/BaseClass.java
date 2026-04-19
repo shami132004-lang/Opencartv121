@@ -114,21 +114,21 @@ public void setup(@Optional("windows") String os,
 		
 	}
 	
-	public String randomstring()
+	public String randomString()
 	{
 		String generatedstring=RandomStringUtils.randomAlphabetic(5);
 		return generatedstring;		
 	}
 
 
-	public String randomnumber()
+	public String randomNumber()
 	{
 		String generatednumber=RandomStringUtils.randomNumeric(10);
 		return generatednumber;		
 	}
 
 	
-	public String randomalphanumberic()
+	public String randomAlphaNumberic()
 	{
 		String generatedstring=RandomStringUtils.randomAlphabetic(3);
 		String generatednumber=RandomStringUtils.randomNumeric(4);
