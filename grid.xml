@@ -18,7 +18,9 @@
     <classes>
       <class name="testCases.TC_001_AccountRegistrationPageTest"/> 
       <class name="testCases.TC_002_LoginTest"/> 
-    <!--  <class name="testCases.TC_003_LoginDDT"/> -->
+      <class name="testCases.TC_003_LoginDDT"/> 
+      <class name="testCases.TC_004_SearchProductTest" />
+	  <class name="testCases.TC_005_AddToCartPageTest" />
 
     </classes>
   </test> <!-- Test -->
@@ -30,8 +32,8 @@
     <classes>
       <class name="testCases.TC_001_AccountRegistrationPageTest"/> 
       <class name="testCases.TC_002_LoginTest"/> 
-    <!--  <class name="testCases.TC_003_LoginDDT"/> -->
-     <class name="testCases.TC_004_SearchProductTest" />
+      <class name="testCases.TC_003_LoginDDT"/> 
+      <class name="testCases.TC_004_SearchProductTest" />
 	  <class name="testCases.TC_005_AddToCartPageTest" />
 
     </classes>
