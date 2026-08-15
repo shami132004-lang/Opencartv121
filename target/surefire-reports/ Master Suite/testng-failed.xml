@@ -11,17 +11,10 @@
       <class name="testCases.TC_003_LoginDDT">
         <methods>
           <include name="teardown"/>
-          <include name="verify_loginDDT" invocation-numbers="2 3"/>
           <include name="setup"/>
+          <include name="verify_loginDDT" invocation-numbers="1"/>
         </methods>
       </class> <!-- testCases.TC_003_LoginDDT -->
-      <class name="testCases.TC_005_AddToCartPageTest">
-        <methods>
-          <include name="teardown"/>
-          <include name="verify_addToCart"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC_005_AddToCartPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [ Master Suite] -->
